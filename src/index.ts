@@ -68,7 +68,7 @@ class TdeeCalculator extends Command {
     const { flags } = this.parse(TdeeCalculator);
     const param = await this.makeCalculatorParam(flags);
     this.log(
-      `The calory to keep your weight is ${this.calculator.calculateIntakeCalorie(
+      `The calorie to keep your weight is ${this.calculator.calculateIntakeCalorie(
         param
       )} calories.`
     );
