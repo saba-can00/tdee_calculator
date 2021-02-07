@@ -21,11 +21,10 @@ install
 $ npm install -g tdee_calculator
 
 run
-$ npm install -g tdee_calculator
+$ /tdee_calculator/bin/run 
 
 help
 $ tdee_calculator --help
-you can see input options
 ```
 
 ## Execution 
