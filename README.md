@@ -14,23 +14,37 @@ this is tdee_calculator
 <!-- tocstop -->
 # Usage
 <!-- usage -->
+This is TDEE calculator to calculate the calorie to keep your current weight.
+
 ```sh-session
+install
 $ npm install -g tdee_calculator
 
-$ tdee_calculator COMMAND
-running command...
+run
+$ npm install -g tdee_calculator
 
-$ tdee_calculator (-v|--version|version)
-tdee_calculator/0.0.0 darwin-x64 node-v12.13.0
+help
+$ tdee_calculator --help
+you can see input options
+```
 
-$ tdee_calculator --help [COMMAND]
+## Execution 
 
-USAGE
-  $ tdee_calculator COMMAND
-...
+After execute command, input the parameter to calculate.
+Then you can get the calorie to keep your current weight.
+
+![Usage](./tdee_calculator_usage.png "Usage")
+
+
+
+# OPTIONS
+```sh-session
+  -H, --help                         show CLI help
+  -a, --age=age                      input your age
+  -h, --height=height                input your height
+  -l, --activityLevel=activityLevel  input your daily activity level 
+  -s, --sex=sex                      input your biological sex (men or women)
+  -v, --version                      show CLI version
+  -w, --weight=weight                input your weight
 ```
 <!-- usagestop -->
-# Commands
-<!-- commands -->
-
-<!-- commandsstop -->
